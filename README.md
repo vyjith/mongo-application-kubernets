@@ -35,7 +35,7 @@ data:
 ```
 
 
-### Step 2 : Crate the deployment for the mongo-db and the service, following is the yaml file
+### Step 2 : Crate the deployment and service for the mongo-db, following is the yaml file
 
 ```
 apiVersion: apps/v1
