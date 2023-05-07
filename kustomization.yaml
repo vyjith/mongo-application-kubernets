@@ -1,0 +1,5 @@
+resources:
+  - 01-mong-secret.yaml
+  - 02-mongo.yaml
+  - 03-mongo-config.yaml
+  - 04-mongo-express.yaml
