@@ -1,8 +1,20 @@
-# Mongo application using kubernetes
+# Mongo application using Kubernetes
+
+How to use this sript 
+
+Before continuing, you need to install kubelet, docker, minikube on your machine, if you are not familiar with this and follow this article : 
+
+```
+git clone https://github.com/vyjith/mongo-application-kubernets.git
+cd mongo-application-kubernets/
+kubectl apply -k .
+```
+
+The application will install on the above step but if you want to more dig on this, Please follow the below steps..........
 
 ### Step 1: Create a secret 
 
-So here you need to convert username and password using base64. I have used the following username and password
+So here you need to convert the username and password using base64. I have used the following username and password
 
 echo -n "username" | base64
 dXNlcm5hbWU=
